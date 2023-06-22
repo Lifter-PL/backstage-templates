@@ -44,7 +44,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: https://github.com/Lifter-PL/backstage-templates/blob/main/templ/catalog-info.yaml
+        url: https://github.com/Lifter-PL/backstage-templates/tree/main/templ
         values:
           name: ${{ parameters.name }}
 
