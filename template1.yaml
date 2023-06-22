@@ -4,7 +4,7 @@ kind: Template
 # some metadata about the template itself
 metadata:
   name: v1beta3-demo2
-  title: My Test Template for GitHub 3
+  title: My Test Template for GitHub 4
   description: scaffolder v1beta3 template demo 2 
 spec:
   owner: user:guest
@@ -44,7 +44,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: https://github.com/Lifter-PL/backstage-templates/blob/main/templ/catalog-info.yaml
+        url: https://github.com/Lifter-PL/backstage-templates/blob/main/templ
         values:
           name: ${{ parameters.name }}
 
