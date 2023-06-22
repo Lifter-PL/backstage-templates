@@ -44,7 +44,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: ./my-template
+        url: https://github.com/Lifter-PL/backstage-templates/tree/main/templ
         values:
           name: ${{ parameters.name }}
 
@@ -52,8 +52,8 @@ spec:
       name: Fetch Docs
       action: fetch:plain
       input:
-        targetPath: ./community
-        url: https://github.com/backstage/community/tree/main/backstage-community-sessions
+        targetPath: ./from-template-repo
+        url: https://github.com/Lifter-PL/backstage-templates/tree/main/repo
 
     - id: publish
       name: Publish
